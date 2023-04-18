@@ -1,7 +1,7 @@
 # C
 
 
-######     Singly Linked List
+####    Singly Linked List
 
 A singly linked list is the kind of linked list, in which a node has two fields:
 
@@ -13,7 +13,7 @@ A singly linked list is the kind of linked list, in which a node has two fields:
 
 
 
-#####   Doubly Linked List
+####   Doubly Linked List
 
 
 A doubly linked list is the kind of linked list, in which a node has three fields:
