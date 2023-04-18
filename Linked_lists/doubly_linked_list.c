@@ -43,7 +43,7 @@ Node *find(Node *head, int val){
     return NULL;
 }
 
-//inser new node
+//insert new node
 void insert(Node *node_before, Node *new_node){
 
     node_before->next->prev = new_node;
