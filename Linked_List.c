@@ -36,9 +36,9 @@ Node *find(Node *head, int val){
 }
 
 //inser new node
-void insert(Node *node_befor, Node *new_node){
-    new_node->next = node_befor->next;
-    node_befor->next = new_node;
+void insert(Node *node_before, Node *new_node){
+    new_node->next = node_before->next;
+    node_before->next = new_node;
 }
 
 
