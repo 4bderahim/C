@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+
 int i, j, height = 19 , width = 19;
 int gameover, score;
 int x, y, fruitx, fruity,flag,spd, game_spd = 20;
@@ -49,8 +50,8 @@ void generate_fruit(){
         fruity = rand()%20;
         if (fruity == 0)
                 goto lab2;
-
 }
+
 void setup(){
     gameover = 0;
     x = height/2;
