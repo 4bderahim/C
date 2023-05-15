@@ -35,8 +35,11 @@ int pop(){
 
 int main(){
     for (int i=0; i < 10;i++)push(i);
+    
+    // push without a for loop.
     //push(5);
     //push(3);
+    
     int poped= pop();
 
     while (poped != -1){
